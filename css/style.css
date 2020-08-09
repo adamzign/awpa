@@ -102,12 +102,17 @@ a, a:hover, a:focus {
   background: none !important; }
 
 .bg_img {
-  z-index: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #0a0c0c; */
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    background: linear-gradient(to right, #6f0000, #200122);
+}
   .bg_img img {
     width: 100%;
     height: 100%;
@@ -322,6 +327,11 @@ svg {
   margin: 0 auto;
   padding: 0; }
 
+
+.lgd img {
+    width: 73%;
+    padding: 37% 0;
+}
 .brand {
   margin: 30px 0 0;
   height: 30px; }
@@ -984,6 +994,25 @@ p {
 @media all and (max-width: 767px) {
   .portfolio-filters ul li {
     width: 100%; }
+.lgd img {
+    width: 96%;
+    padding: 39px 0 16px 23px;
+    text-align: center;
+}
+.d_table {
+    display: table;
+    width: 100%;
+    height: auto;
+	text-align:center;
+}
+.brand img {
+    width: 27%;
+    /* padding-bottom: 37px; */
+}
+.s_contact ul {
+    position: relative;
+    top: 51px;
+}
 
   .portfolio .project-image, .portfolio .portfolio-item {
     height: 150px; }
