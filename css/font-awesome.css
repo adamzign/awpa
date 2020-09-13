@@ -61,7 +61,7 @@
 }
 .fa-border {
   padding: .2em .25em .15em;
-  border: solid 0.08em #eee;
+  border: solid 0.08em #eeeeee;
   border-radius: .1em;
 }
 .fa-pull-left {
@@ -176,7 +176,7 @@
   font-size: 2em;
 }
 .fa-inverse {
-  color: #fff;
+  color: #ffffff;
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
@@ -286,7 +286,7 @@
 .fa-flag:before {
   content: "\f024";
 }
-.fa-headphomes:before {
+.fa-headphones:before {
   content: "\f025";
 }
 .fa-volume-off:before {
@@ -612,7 +612,7 @@
 .fa-lemon-o:before {
   content: "\f094";
 }
-.fa-phome:before {
+.fa-phone:before {
   content: "\f095";
 }
 .fa-square-o:before {
@@ -621,7 +621,7 @@
 .fa-bookmark-o:before {
   content: "\f097";
 }
-.fa-phome-square:before {
+.fa-phone-square:before {
   content: "\f098";
 }
 .fa-twitter:before {
@@ -926,7 +926,7 @@
 .fa-tablet:before {
   content: "\f10a";
 }
-.fa-mobile-phome:before,
+.fa-mobile-phone:before,
 .fa-mobile:before {
   content: "\f10b";
 }
@@ -1028,10 +1028,10 @@
 .fa-puzzle-piece:before {
   content: "\f12e";
 }
-.fa-microphome:before {
+.fa-microphone:before {
   content: "\f130";
 }
-.fa-microphome-slash:before {
+.fa-microphone-slash:before {
   content: "\f131";
 }
 .fa-shield:before {
@@ -2113,7 +2113,7 @@
 .fa-audio-description:before {
   content: "\f29e";
 }
-.fa-volume-control-phome:before {
+.fa-volume-control-phone:before {
   content: "\f2a0";
 }
 .fa-braille:before {
