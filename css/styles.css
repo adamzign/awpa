@@ -7,53 +7,22 @@
     padding: 90px 0px 90px 0px;
     background-color: #fff;
 }
-.hp .team-info span {
-    color: #ec2023;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-.hp .team-info h4:after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 2px;
-    background: #ec2023;
-    margin: 10px 0px 0px 0px;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
-}
-
-.hp .section-heading span {
-    position: relative;
-    font-size: 15px;
-    font-weight: 500;
-    color: #ec2023;
-    line-height: 200%;
-    margin-bottom: 10px;
-}
-.hp .section-heading-line {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 3px;
-    background: #ec2023;
-    border-radius: 25%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.swiper-container {
+.hypermarket .swiper-container {
     width: 100%;
-    height: 56% !important;
+    height: 65% !important;
 }
 .section-block-grey {
     padding: 90px 0px 90px 0px;
     background-color: #f9f9f9;
 }
 
+.hypermarket .swiper-button-next,.hypermarket .swiper-button-prev {
+    position: absolute;
+    top: 55%;
+}
+
+
+.hypermarket .swiper-pagination{display:none;}
 .section-block-dark {
     padding: 90px 0px 90px 0px;
     background-color: #222;
@@ -6483,9 +6452,9 @@ footer h3:after {
 
 .slick-slider .slick-prev,
 .slick-slider .slick-next {
-    display: none !important;
+ 
     z-index: 100;
-    font-size: 2.5em;
+    font-size:23px;
     height: 40px;
     width: 40px;
     margin-top: -20px;
@@ -6497,7 +6466,7 @@ footer h3:after {
     opacity: 1;
     transition: opacity .25s;
     cursor: pointer;
-    background: #eee;
+  
 }
 
 .slick-slider .slick-prev:hover,
@@ -8563,6 +8532,10 @@ footer h3:after {
             transform: translateY(-50%);
   }
 }
+
+.slider1 .slide .slide__img img {
+	width:100%;
+}
 .slide .slide__img img {
 max-width: auto;
     height: auto;
@@ -8742,7 +8715,7 @@ text-align: left;
 
 
 .product-card {
- width: 100%;
+ width: 100%;	height:352px;
     float: left;
     background: rgb(255 203 8 / 10%);
     /* box-shadow: 2px 2px 15px 2px black; */
@@ -8758,7 +8731,8 @@ text-align: left;
 }
 
 
-@media (max-width: 767px){.swiper-wrapper {
+@media (max-width: 767px){
+	.swiper-wrapper {
     display: block;
 }
 .blog-slider-out {
@@ -8772,7 +8746,31 @@ text-align: left;
 }.blog-slider__title {
 font-size: 25px;}
 
+.blog-slider__img {
+    width: 100%;
+ 
+    height: auto;
+   
+    transform: inherit;
+  
+	
+}
+
 
 }
 
 
+
+.migrant #top-bar{    background: #d21e2b;
+}
+
+.hypermarket   .slider1  .slide{height:55vh}
+
+
+.migrant .section-heading span,
+.migrant .section-heading-line,
+ .migrant .team-info span ,
+ .migrant .team-info h4:after ,
+  .migrant .team-info h4 a:hover{    color: #ff0000;}
+  
+  .migrant  .team-info h4:after , .migrant .section-heading-line{ background: #ff0000;}

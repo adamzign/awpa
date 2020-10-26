@@ -370,7 +370,7 @@ $(document).ready(function () {
   }
 
   /*---------------------
-  Main Slider Fade Effect
+  Main Slider Fade Effect 
   -----------------------*/
   if ($(".swiper-main-slider-fade").length !== 0) {
     //Slider Animated Caption

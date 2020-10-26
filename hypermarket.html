@@ -23,7 +23,7 @@
 	  <script src="https://kit.fontawesome.com/54ffb297eb.js" crossorigin="anonymous"></script>
 
    </head>
-   <body>
+   <body class="hypermarket migrant">
       <div id="preloader" class="hp">
          <div class="row loader">
             <div class="loader-icon">
@@ -85,7 +85,7 @@
             </div>
          </nav>
       </header>
-<div class="swiper-main-slider-fade swiper-container swiper-container-horizontal swiper-container-fade">
+<!-- <div class="swiper-main-slider-fade swiper-container swiper-container-horizontal swiper-container-fade">
     <div class="swiper-wrapper" style="transition-duration: 0ms;">
         <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="background-image: url(&quot;img/slider/Mislide13.jpg&quot;); width: 1349px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="2">
             <div class="container">
@@ -162,10 +162,56 @@
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
-</div>
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div> -->
 
 
+
+  
+  
+  
+  
+  
+  
+  
+  
+    <div class="slider1 stick-dots">
+  
+  
+  
+  
+  
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="img/slider/Mislide13.jpg" class="full-image animated" data-animation-in="zoomInImage"/>
+      </div>
+     
+    </div>
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="img/slider/Mislide14.jpg" class="full-image animated" data-animation-in="zoomInImage"/>
+      </div>
+    
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -535,11 +581,12 @@
    
    
    $('.slider').slick({
- dots: true,
+ dots: false,arrows:true,
   infinite: true,
    autoplay: true,
   autoplaySpeed: 2000,
-
+  prevArrow: '<span class="slick-prev">&#8592;</span>',
+    nextArrow: '<span class="slick-next">&#8594;</span>',
   slidesToShow: 4,
   slidesToScroll: 4,
   responsive: [
@@ -568,6 +615,26 @@
     }
   ]
 });
+
+
+
+
+
+$('.slider1').slick({
+  autoplay: true,loop:true,
+  speed: 400,  autoplaySpeed: 2000,
+  lazyLoad: 'progressive',
+  arrows: false,
+  dots: true,
+}).slickAnimation();
+
+
+
+
+
+
+
+
 
 
 
