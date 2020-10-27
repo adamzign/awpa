@@ -21,7 +21,17 @@
     top: 55%;
 }
 
-
+footer.hp {
+    background: #cf1e2a;
+}
+footer .hp > h3:after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #ffffff;
+    margin-top: 12px;
+}
 .hypermarket .swiper-pagination{display:none;}
 .section-block-dark {
     padding: 90px 0px 90px 0px;
