@@ -1619,6 +1619,12 @@ color:#fecc09;}
         padding-right: 20px;
         padding-left: 20px;
     }
+	
+	.modal-dialog {
+    position: relative !important;
+    width: 80% !important;
+	
+	}
 }
 
 @media (max-width: 425px) {
@@ -8575,7 +8581,10 @@ text-align: left;
     font-size: 17px;
     float: left;
     width: 100%;
-    text-align: center;text-transform: capitalize;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 22px;
 }
 .slide .slide__content--headings h2 {
      font-size: 53px;
@@ -8725,7 +8734,7 @@ text-align: left;
 
 
 .product-card {
- width: 100%;	height:352px;
+ width: 100%;	height:auto;
     float: left;
    
     /* box-shadow: 2px 2px 15px 2px black; */
@@ -8771,6 +8780,16 @@ font-size: 25px;}
 
 
 
+.migrant footer{
+	background:#d21e2b;
+}
+
+
+.migrant footer p , .migrant .footer-list li a ,.migrant  .footer-list li a:before{color:#fff;
+}
+
+
+.migrant footer .hp > h3:after{    background: #ffcb08;}
 .migrant #top-bar{    background: #d21e2b;
 }
 
@@ -8784,3 +8803,36 @@ font-size: 25px;}
   .migrant .team-info h4 a:hover{    color: #ff0000;}
   
   .migrant  .team-info h4:after , .migrant .section-heading-line{ background: #ff0000;}
+
+ .migrant  .slider .slide .slide__img img{margin-bottom:0;}
+ 
+ 
+.slick-slider .slick-prev, .slick-slider .slick-next{    background: #ffcb08;}
+
+
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+
+.video-video-box-button .btn::before{    background: #ff0000;
+	
+}
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-title, .modal-footer{display: none;}
